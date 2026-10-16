@@ -1,0 +1,20 @@
+==================================================
+FACTURE / INVOICE (Micro-entreprise)
+==================================================
+Émetteur (Prestataire):
+- Nom: Abdallah Ben Belgacem
+- Localisation: Nice, France
+- Statut: Micro-entrepreneur
+- Email: Aliali12345908ali@gmail.com
+
+Client:
+- [Nom du client / Entreprise]
+- [Adresse du client]
+
+Détails de la prestation:
+- Description: Développement Python, Automatisation & Audit de Sécurité Web
+- Montant total: [X] €
+- TVA non applicable, art. 293 B du CGI (mention obligatoire micro-entreprise)
+
+Date: [Date du jour]
+==================================================
