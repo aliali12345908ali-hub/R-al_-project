@@ -1,14 +1,13 @@
 import json
 
-def generate_proposals():
-    print("[*] جاري توليد رسائل مخصصة بالذكاء الاصطناعي لكل عميل...")
+def generate():
     try:
         with open("leads_db.json", "r") as f:
             leads = json.load(f)
-        for lead in leads:
-            print(f" -> تم تجهيز العرض المخصص للعميل: {lead['client']} ({lead['url']})")
-    except FileNotFoundError:
-        print("[-] يرجى تشغيل lead_scraper.py أولاً.")
+        for l in leads:
+            print(f"[AI] Proposal ready for: {l['client']} -> {l['url']}")
+    except Exception as e:
+        print("Error:", e)
 
 if __name__ == "__main__":
-    generate_proposals()
+    generate()
