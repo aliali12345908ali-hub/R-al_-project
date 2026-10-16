@@ -1,0 +1,11 @@
+==================================================
+GLOBAL FREELANCE PROFILE & PROPOSAL (Python & Automation)
+==================================================
+Title: Senior Python Developer & Web Security Automation Expert
+Description:
+Hello! I am Abdallah Ben Belgacem, a professional Python developer and automation specialist based in Nice, France. I build custom scripts, web diagnostic tools, and automated URL health & security auditing utilities. 
+
+Whether you need to secure your web applications, automate repetitive tasks, or scale your backend infrastructure, I deliver robust, production-ready code. You can explore my official portfolio and technical code repositories on GitHub (aliali12345908ali-hub/R-al_-project). 
+
+Let's collaborate to bring efficiency and security to your digital projects!
+==================================================
