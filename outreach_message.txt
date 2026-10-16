@@ -1,0 +1,15 @@
+==================================================
+COLD OUTREACH MESSAGE (Python & Web Automation)
+==================================================
+English:
+Hi [Client Name],
+I noticed your website and wanted to reach out. I'm Abdallah Ben Belgacem, a Python developer based in France, specializing in automated web auditing and security checking. I built tools that ensure zero downtime and secure URL health. I'd love to help you optimize and protect your digital infrastructure. You can check my portfolio here: https://github.com/aliali12345908ali-hub/R-al_-project
+Best regards,
+Abdallah
+
+French:
+Bonjour [Nom du client],
+Je me permets de vous contacter après avoir visité votre site. Je suis Abdallah Ben Belgacem, développeur Python basé à Nice, spécialisé dans l'automatisation et l'audit de sécurité web. Je propose des solutions sur mesure pour sécuriser vos applications. Vous pouvez consulter mon portfolio ici : https://github.com/aliali12345908ali-hub/R-al_-project
+Bien cordialement,
+Abdallah
+==================================================
