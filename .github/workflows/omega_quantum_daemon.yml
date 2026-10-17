@@ -1,0 +1,25 @@
+name: Omega Quantum Autonomous Daemon
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # تشغيل تلقائي كل ساعة
+  workflow_dispatch:
+
+jobs:
+  run-omega-daemon:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Execute Autonomous Cyber-Agency Cycle
+        run: |
+          python3 omega_ai_intelligence_core.py
+          python3 omega_whale_strike_engine.py
+          python3 omega_mobile_dashboard.py
+          echo "[🔥] Omega Quantum Daemon executed successfully at $(date)"
