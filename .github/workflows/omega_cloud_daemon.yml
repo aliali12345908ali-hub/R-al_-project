@@ -5,6 +5,9 @@ on:
     - cron: '0 * * * *'  # يعمل تلقائياً كل ساعة في السحاب
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   cloud-execution:
     runs-on: ubuntu-latest
