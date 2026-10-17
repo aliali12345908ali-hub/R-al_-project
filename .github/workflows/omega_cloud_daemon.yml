@@ -1,0 +1,31 @@
+name: Omega Cloud Daemon 24/7
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # يعمل تلقائياً كل ساعة في السحاب
+  workflow_dispatch:
+
+jobs:
+  cloud-execution:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Omega Evolution & War Room Engines
+        run: |
+          python3 omega_evolution_engine.py
+          python3 autonomous_war_room.py
+
+      - name: Commit & Sync Cloud State
+        run: |
+          git config --global user.name "Omega Cloud Daemon"
+          git config --global user.email "daemon@omega.agency"
+          git add .
+          git commit -m "Cloud Daemon Auto-Sync: Omega Agency running 24/7 autonomously" || exit 0
+          git push
