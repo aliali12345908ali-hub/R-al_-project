@@ -1,0 +1,11 @@
+{
+    "gateway_mode": "LIVE HIGH-TICKET SETTLEMENT",
+    "beneficiary": "MR ABDALLAH BEN BELGACEM",
+    "iban": "FR76 1659 8000 0140 0014 2630 322",
+    "bic_swift": "FPELFR21XXX",
+    "domiciliation": "FPE Charenton, 1 Place des Marseillais, 94220 Charenton Le Pont",
+    "legal_notice": "TVA non applicable, art. 293 B du CGI",
+    "target_settlement": "EUR (European & Global Markets)",
+    "status": "Ready for Instant Client Payouts",
+    "timestamp": "2026-10-17 02:21:52.847838"
+}
